@@ -1,0 +1,47 @@
+IBM Coursera — Back-End-Development-Pictures
+============================================
+ГОТОВЫЙ ПРОЕКТ С КОДОМ, ТЕСТАМИ И DOCKERFILE.
+
+Важное: не вставляй выдуманный лог. Команды ниже создадут настоящий вывод.
+
+В CLOUD IDE (TERMINAL -> NEW TERMINAL):
+
+1. В левом файловом меню IDE выбери /home/project и Upload Files.
+   Загрузи ZIP и затем в терминале выполни:
+
+   cd /home/project
+   unzip Back-End-Development-Pictures.zip
+   cd Back-End-Development-Pictures
+
+2. Установи зависимости и прогони тесты:
+
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements-dev.txt
+   pytest -v
+
+3. Вопрос 17 — запусти реальное развёртывание IBM Code Engine:
+
+   ibmcloud ce project current
+   ibmcloud ce app create --name pictures --build-source . --build-strategy dockerfile --port 8080
+
+   Дождись OK и адреса приложения. Скопируй ВЕСЬ НАСТОЯЩИЙ ВЫВОД в вопрос 17.
+   Он может создаваться несколько минут. Если получишь ошибку — покажи ChatGPT.
+
+4. Для проверки:
+
+   ibmcloud ce app get --name pictures
+
+   Когда увидишь URL, открой адрес с /health и /count.
+
+5. Вопросы 2-5 требуют реальные выводы тестов в твоём терминале.
+   Команды и имена доказательств перечислены в README.md.
+
+6. Вопрос 1 требует ПУБЛИЧНУЮ GitHub-ссылку на README.md в твоём репозитории.
+   ZIP сам по себе не создаёт репозиторий — его нужно загрузить в свой GitHub.
+
+ОГРАНИЧЕНИЕ: хранилище примеров — оперативная память. В облачном приложении с
+несколькими репликами изменения не синхронизируются; для учебной лабораторной это
+допустимо, но не является production-ready постоянным хранилищем.
+
+НЕ ЗАГРУЖАЙ пароли, токены, ключи IBM в репозиторий или чат.

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-1/300/200",
+    "event_country": "United States",
+    "event_state": "District of Columbia",
+    "event_city": "Washington",
+    "event_date": "11/16/2022"
+  },
+  {
+    "id": 2,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-2/300/200",
+    "event_country": "United States",
+    "event_state": "Florida",
+    "event_city": "Naples",
+    "event_date": "11/2/2022"
+  },
+  {
+    "id": 3,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-3/300/200",
+    "event_country": "United States",
+    "event_state": "Ohio",
+    "event_city": "Youngstown",
+    "event_date": "7/11/2022"
+  },
+  {
+    "id": 4,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-4/300/200",
+    "event_country": "United States",
+    "event_state": "California",
+    "event_city": "Anaheim",
+    "event_date": "3/10/2022"
+  },
+  {
+    "id": 5,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-5/300/200",
+    "event_country": "United States",
+    "event_state": "New Jersey",
+    "event_city": "Newark",
+    "event_date": "12/25/2022"
+  },
+  {
+    "id": 6,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-6/300/200",
+    "event_country": "United States",
+    "event_state": "North Carolina",
+    "event_city": "Charlotte",
+    "event_date": "8/2/2022"
+  },
+  {
+    "id": 7,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-7/300/200",
+    "event_country": "United States",
+    "event_state": "Texas",
+    "event_city": "San Antonio",
+    "event_date": "4/1/2022"
+  },
+  {
+    "id": 8,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-8/300/200",
+    "event_country": "United States",
+    "event_state": "Florida",
+    "event_city": "Orlando",
+    "event_date": "7/12/2022"
+  },
+  {
+    "id": 9,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-9/300/200",
+    "event_country": "United States",
+    "event_state": "California",
+    "event_city": "Los Angeles",
+    "event_date": "8/6/2022"
+  },
+  {
+    "id": 10,
+    "pic_url": "https://picsum.photos/seed/ibm-capstone-10/300/200",
+    "event_country": "United States",
+    "event_state": "Florida",
+    "event_city": "Miami Beach",
+    "event_date": "11/19/2022"
+  }
+]
